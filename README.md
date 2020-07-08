@@ -1,7 +1,7 @@
 # Weather-Journal App Project
 
 ## Overview
-This project is about working with Web APIs and asynchronous code, it requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This project is about working with Web APIs and asynchronous code, it requires creating an asynchronous web app that uses openweathermap API and user data to dynamically update the UI. 
 
 
 ## Instructions
