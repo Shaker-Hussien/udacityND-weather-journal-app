@@ -71,37 +71,12 @@ button {
   word-wrap: break-word;
 }
 
-/* #entryHolder {
-}
-
-#date {
-}
-
-#temp {
-}
-
-#content {
-}
-
-.title {
-} */
-
 /*  Basic Styling To Override Default For Basic HTML Elements */
 label {
   display: block;
   font-size: 27px;
 }
 
-/* h1 {
-  font-size: 36px;
-} */
-
-/* textarea {
-  background: #22b2da;
-  color: #f0d43a;
-  font-size: 20px;
-  font-family: "Oswald", sans-serif;
-} */
 /* Reset style for HTML element on active to have no border*/
 input:focus,
 select:focus,

@@ -17,13 +17,11 @@ app.use(bodyParser.json());
 const cors = require("cors");
 app.use(cors());
 
-const { env } = require("process");
-
 // Initialize the main project folder
 app.use(express.static("website"));
 
 // Setup Server
-const port = process.env.PORT || 3000;
+const port = 3000;
 app.listen(port, () => {
   console.log(`Weather Journal APIs is running on port ${port}`);
 });
