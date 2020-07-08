@@ -1,0 +1,129 @@
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: 10% 100px auto;
+  height: 100vh;
+  background: #f23557;
+  color: #f0d43a;
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.holder {
+  text-align: center;
+}
+
+.headline {
+  text-align: center;
+  font-size: 40px;
+}
+
+.zip {
+  text-align: left;
+  font-size: 20px;
+}
+
+input {
+  display: block;
+  height: 30px;
+  width: 320px;
+  background: whitesmoke;
+  color: black;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+.feel {
+  text-align: left;
+  font-size: 20px;
+}
+
+textarea {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+}
+
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  height: 200px;
+  width: 320px;
+  word-wrap: break-word;
+}
+
+/* #entryHolder {
+}
+
+#date {
+}
+
+#temp {
+}
+
+#content {
+}
+
+.title {
+} */
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+}
+
+/* h1 {
+  font-size: 36px;
+} */
+
+/* textarea {
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+} */
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
